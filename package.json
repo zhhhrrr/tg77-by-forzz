@@ -1,0 +1,16 @@
+{
+  "name": "telegram-web-client",
+  "private": true,
+  "version": "6.0.0",
+  "type": "module",
+  "dependencies": {
+    "telegram": "2.26.16"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.9",
+    "esbuild-plugin-polyfill-node": "0.3.0"
+  },
+  "scripts": {
+    "build": "node build.mjs"
+  }
+}
